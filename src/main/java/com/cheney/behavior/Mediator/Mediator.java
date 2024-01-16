@@ -9,5 +9,8 @@ package com.cheney.behavior.Mediator;
  */
 public abstract class Mediator {
     private String name;
+    public Mediator(String name){
+        this.name = name;
+    }
     public abstract String constact(String msg,Person person);
 }

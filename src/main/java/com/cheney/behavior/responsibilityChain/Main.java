@@ -8,7 +8,7 @@ package com.cheney.behavior.responsibilityChain;
  */
 public class Main {
     public static void main(String[] args) {
-        LeaveRequest leaveRequest = new LeaveRequest("小明", 3, "结婚");
+        LeaveRequest leaveRequest = new LeaveRequest("小明", 5, "结婚");
 
         // 各级别领导
         GroupLeader groupLeader = new GroupLeader();

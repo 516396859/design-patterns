@@ -9,6 +9,11 @@ package com.cheney.behavior.Mediator;
 public class MediatorCompany extends Mediator{
     private HouseOwner houseOwner;
     private Tenant tenant;
+
+    public MediatorCompany(String name) {
+        super(name);
+    }
+
     @Override
     public String constact(String msg,Person person) {
         if(person instanceof HouseOwner){
